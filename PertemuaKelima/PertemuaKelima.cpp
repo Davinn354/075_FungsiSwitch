@@ -36,7 +36,7 @@ int main()
 {
     int pilihan;
 
-    
+    do
     {
         cout << "=============================" << endl;
         cout << "MENU" << endl;
@@ -72,8 +72,7 @@ int main()
             cout << "Pilihan tidak ada" << endl;
             break;
         }
-    }
-
+    } while (pilihan != 5);
 
 }
 
