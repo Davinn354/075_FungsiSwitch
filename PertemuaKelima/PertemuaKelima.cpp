@@ -31,11 +31,12 @@ float pengurangan(float a, float b)
     return a - b;
 }
 
+
 int main()
 {
     int pilihan;
 
-    do
+    
     {
         cout << "=============================" << endl;
         cout << "MENU" << endl;
@@ -46,6 +47,9 @@ int main()
         cout << "5. Exit " << endl;
         cout << "Masukan Pilihan 1/2/3/4/5 = ";
         cin >> pilihan;
+ 
     }
+
+
 }
-    
+
